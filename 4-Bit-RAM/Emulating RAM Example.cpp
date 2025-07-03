@@ -20,9 +20,8 @@ int main()
 
 	std::vector<int> program
 	{
-		0, 0, 0, 1,//memory location #0000 acts as the Program counter 
-
-			1, 0, 1, 1,//Load into register 4 (#11),
+			0, 0, 0, 1,//memory location #0000 acts as the Program counter 
+			0, 0, 1, 1,//Load into register 4 (#11),
 			1, 1, 1, 1,//the contents stored at #1111.
 			1, 0, 0, 1,//Load into register 2 (#01),
 			0, 0, 1, 1,//the contents stored at #0010.
